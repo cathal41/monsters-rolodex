@@ -20,6 +20,7 @@ class App extends Component {
       .then(users => this.setState({ monsters: users }));
   }
 
+  //handle search input
   handleChange = (e) => {
     this.setState ({ searchField: e.target.value});
   }
